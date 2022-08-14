@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Publisher Data - Sync</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <style>
+        .btn {
+            background-color: #6f42c1;
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: #6f42c1;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<br/>
+<h2 class="d-flex justify-content-center">Publisher Data - Sync</h2>
+<section class="my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>Upload File</h2>
+                <p th:text="${message}" th:if="${message ne null}" class="alert alert-primary"></p>
+                <form method="post" th:action="@{/upload}" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input type="file" name="file" class="form-control-file">
+                    </div>
+                    <button type="submit" class="btn">Upload File</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

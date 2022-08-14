@@ -1,0 +1,7 @@
+com\publishers\api\PublisherControllerTest.class
+com\publishers\SmokeTest.class
+com\publishers\helper\FileParserHelperTest.class
+com\publishers\service\DefaultPublisherServiceTest.class
+com\publishers\helper\PublisherMapperTest.class
+com\publishers\validation\PublisherValidatorTest.class
+com\publishers\config\ApplicationPropertiesTest.class

@@ -1,0 +1,16 @@
+com\publishers\helper\PublisherMapper.class
+com\publishers\api\PublisherController.class
+com\publishers\config\ApplicationProperties.class
+com\publishers\repository\PublisherRepository.class
+com\publishers\util\Constants.class
+com\publishers\PublisherDataApplication.class
+com\publishers\helper\ErrorHelper.class
+com\publishers\helper\FileParserHelper.class
+com\publishers\dto\PublisherDto.class
+com\publishers\util\Constants$ApiAttribute.class
+com\publishers\validation\PublisherValidator.class
+com\publishers\exception\FileProcessingException.class
+com\publishers\util\Constants$ApiMessages.class
+com\publishers\entity\Publisher.class
+com\publishers\service\PublisherService.class
+com\publishers\service\DefaultPublisherService.class
